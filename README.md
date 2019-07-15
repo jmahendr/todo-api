@@ -31,7 +31,7 @@ echo 'You should now be able to access jenkins at: http://'$(curl -s ifconfig.co
 3) Build a new docker image with jenkins and docker client
 https://github.com/wardviaene/jenkins-docker/blob/master/Dockerfile
 ```
-FROM jenkins/jenkins
+FROM jenkins/jenkins:lts
 USER root
 
 RUN mkdir -p /tmp/download && \
