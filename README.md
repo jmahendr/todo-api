@@ -53,4 +53,5 @@ user jenkins
 ##Jenkins setup.
 1) Setup github credentials as github-creds
 2) Setup docker hub credentials as dockerhub
-3) Install 'SSH Agent' plugin (Jenkins > Manage Jenkins > Manage Plugins)
+3) Install Maven as maven-3 in jenkins.
+4) Install 'SSH Agent' plugin (Jenkins > Manage Jenkins > Manage Plugins)
