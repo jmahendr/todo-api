@@ -12,6 +12,23 @@
         <version>2.0.3.RELEASE</version>
     </parent>
 
+	<repositories>
+		<repository>
+        	<id>jfrancis-dev-build-packages</id>
+        	<url>s3://jfrancis.mvn.release/release</url>
+    	</repository>
+	</repositories>
+	<distributionManagement>
+	  <snapshotRepository>
+	    <id>jfrancis-dev-build-packages</id>
+	    <url>s3://jfrancis.mvn.release/release</url>
+	  </snapshotRepository>
+	  <repository>
+	    <id>jfrancis-dev-build-packages</id>
+	    <url>s3://jfrancis.mvn.release/release</url>
+	  </repository>
+	</distributionManagement>
+
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
